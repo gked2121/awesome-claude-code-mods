@@ -59,7 +59,7 @@ As of 2026-09-17, scanned against Claude Code 2.1.274: **72 mods** in **142 cand
 - [kb-settings-guard](https://github.com/ray-manaloto/knowledge-base/tree/main/.claude/mods/kb-settings-guard) - Denies a delegated agent lane any write to the repo's Claude settings files.
 - [claude-doctor](https://github.com/ray-manaloto/dotfiles/tree/main/.claude/skills/claude-doctor) - Reports an install health verdict at session start and refuses tool calls while the install is provably broken.
 - [plugin-health](https://github.com/ray-manaloto/dotfiles/tree/main/.claude/skills/plugin-health) - Reports at session start when plugins declared in settings are not installed or are disabled for the project.
-- [launch-codes](https://github.com/OneWave-AI/claude-code-mods/tree/main/launch-codes) - Holds `rm -rf`, force pushes, `DROP` through a SQL client, production deploys and piped install scripts until you type a one-time code.
+- [launch-codes](https://github.com/OneWave-AI/claude-code-mods/tree/main/launch-codes) - Requires a one-time code and confirmation for selected risky Bash commands, including `git push --force` and `vercel --prod`.
 
 ## Memory and context
 
